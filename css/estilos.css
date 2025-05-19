@@ -1,0 +1,308 @@
+
+@font-face {
+  font-family: "hola";
+  src: url("../fuente/letraprincipal.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "adios";
+  src: url("../fuente/letrasegundaria.ttf") format("truetype");
+}
+* {
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+body {
+    background-image: url(../img/fondo\ estrellas.png);
+}
+
+header {
+    border-bottom: #EDBE2F 2px dotted;
+    padding-bottom: 5px;
+}
+
+.principal {
+    margin: 50px auto;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 70px !important;
+    height: 70px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #EDBE2F;
+}
+
+.lista a:hover {
+    text-decoration: dotted;
+    color: #ffffff;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal img {
+    width: 1000px;
+}
+
+#cohete {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#cohete img {
+    height: 30px auto;
+    width: 800px;
+}
+
+.info h1 {
+    color:
+        #ffffff;
+    font-size: 60px;
+    padding: 0%;
+    margin: 0%;
+    font-family: "hola";
+
+}
+
+.info h3 {
+    color:
+        #ffffff;
+    font-size: 40px;
+    padding: 0%;
+    margin: 0%;
+    font-family: "hola";
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.casilla {
+text-align: center;
+}
+
+#apertura {
+    display: flex;
+    flex-wrap: wrap
+}
+
+
+.artistas {
+    text-align: center;
+
+}
+
+.parches {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+#parchestitulo {
+    height: 80px;
+}
+
+.parches img {
+    height: 500px;
+    margin: 20px;
+}
+
+.entradas {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.entradas img {
+    margin: 20px;
+}
+
+.boletas img {
+    width: 400px;
+    margin: 30px;
+}
+
+.boletas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.compra {
+    margin: 20px;
+}
+
+.pagartistas {
+    text-align: center;
+}
+
+.pagartistas div {
+    text-align: center;
+}
+.pagartistas a :hover {
+    width: 550px;
+
+}
+
+.pagartistas img {
+    margin: 15px; 
+}
+footer {
+    width: 100%;
+    background: #4A00E0 url(../img/footer_2.png);
+    padding-top: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0%;
+}
+
+.footer div {
+    margin: 60px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "adios";
+}
+
+footer nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px;
+}
+
+footer nav a :hover {
+    color: #EDBE2F; 
+}
+
+.autores h3 {
+    color: #ffffff;
+    font-family:"adios";
+}
+
+.Barney h1{
+    color: #EDBE2F;
+
+font-size: 150px;;
+text-align: center;
+}
+
+.Barney p{
+
+   color:#ffffff ; 
+   font-size: 44px;
+margin: 50px;
+
+
+}
+
+.Barney p{
+
+   color:#ffffff ; 
+   font-size: 44px;
+margin: 50px;
+
+
+}
+
+@media(min-width:992px) {
+
+    .imgcelular {
+        display: none;
+    }
+
+
+}
+
+
+@media(max-width:768px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    #cohete img {
+        width: 100%
+    }
+
+
+  .info {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .info div {
+    margin: 10px;
+  }
+
+  .principal img {
+    width: 100%;
+  }
+
+  .parches {
+    width: 100%;
+    display: block;
+    margin: 0%;
+  }
+
+  .imgpc {
+    display: none;
+
+  }
+  .imgcelular {
+    display: block;
+    width: 100%;
+  }
+
+  .artistas img{
+    width: 100%;
+    margin: 10px;
+  }
+
+  .pagartistas img {
+    width: 100%;
+  }
+
+  
+}
